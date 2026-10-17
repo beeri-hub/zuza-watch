@@ -1,0 +1,784 @@
+{
+ "source": "https://www.hebcal.com (Israel, major holidays)",
+ "fetched": "2026-09-10",
+ "note": "yomtov=true = יום טוב שבו המערכת מוקפאת. ערב חג נגזר אוטומטית (היום שלפני, מ-15:00).",
+ "items": [
+  {
+   "date": "2026-03-02",
+   "title": "Erev Purim",
+   "hebrew": "ערב פורים",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2026-03-03",
+   "title": "Purim",
+   "hebrew": "פורים",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2026-04-01",
+   "title": "Erev Pesach",
+   "hebrew": "ערב פסח",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2026-04-02",
+   "title": "Pesach I",
+   "hebrew": "פסח א׳",
+   "yomtov": true,
+   "category": "holiday"
+  },
+  {
+   "date": "2026-04-03",
+   "title": "Pesach II (CH’’M)",
+   "hebrew": "פסח ב׳ (חוה״מ)",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2026-04-04",
+   "title": "Pesach III (CH’’M)",
+   "hebrew": "פסח ג׳ (חוה״מ)",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2026-04-05",
+   "title": "Pesach IV (CH’’M)",
+   "hebrew": "פסח ד׳ (חוה״מ)",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2026-04-06",
+   "title": "Pesach V (CH’’M)",
+   "hebrew": "פסח ה׳ (חוה״מ)",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2026-04-07",
+   "title": "Pesach VI (CH’’M)",
+   "hebrew": "פסח ו׳ (חוה״מ)",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2026-04-08",
+   "title": "Pesach VII",
+   "hebrew": "פסח ז׳",
+   "yomtov": true,
+   "category": "holiday"
+  },
+  {
+   "date": "2026-05-21",
+   "title": "Erev Shavuot",
+   "hebrew": "ערב שבועות",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2026-05-22",
+   "title": "Shavuot",
+   "hebrew": "שבועות",
+   "yomtov": true,
+   "category": "holiday"
+  },
+  {
+   "date": "2026-07-22",
+   "title": "Erev Tish’a B’Av",
+   "hebrew": "ערב תשעה באב",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2026-07-23",
+   "title": "Tish’a B’Av",
+   "hebrew": "תשעה באב",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2026-09-11",
+   "title": "Erev Rosh Hashana",
+   "hebrew": "ערב ראש השנה",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2026-09-12",
+   "title": "Rosh Hashana 5787",
+   "hebrew": "ראש השנה 5787",
+   "yomtov": true,
+   "category": "holiday"
+  },
+  {
+   "date": "2026-09-13",
+   "title": "Rosh Hashana II",
+   "hebrew": "ראש השנה ב׳",
+   "yomtov": true,
+   "category": "holiday"
+  },
+  {
+   "date": "2026-09-20",
+   "title": "Erev Yom Kippur",
+   "hebrew": "ערב יום כיפור",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2026-09-21",
+   "title": "Yom Kippur",
+   "hebrew": "יום כיפור",
+   "yomtov": true,
+   "category": "holiday"
+  },
+  {
+   "date": "2026-09-25",
+   "title": "Erev Sukkot",
+   "hebrew": "ערב סוכות",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2026-09-26",
+   "title": "Sukkot I",
+   "hebrew": "סוכות א׳",
+   "yomtov": true,
+   "category": "holiday"
+  },
+  {
+   "date": "2026-09-27",
+   "title": "Sukkot II (CH’’M)",
+   "hebrew": "סוכות ב׳ (חוה״מ)",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2026-09-28",
+   "title": "Sukkot III (CH’’M)",
+   "hebrew": "סוכות ג׳ (חוה״מ)",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2026-09-29",
+   "title": "Sukkot IV (CH’’M)",
+   "hebrew": "סוכות ד׳ (חוה״מ)",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2026-09-30",
+   "title": "Sukkot V (CH’’M)",
+   "hebrew": "סוכות ה׳ (חוה״מ)",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2026-10-01",
+   "title": "Sukkot VI (CH’’M)",
+   "hebrew": "סוכות ו׳ (חוה״מ)",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2026-10-02",
+   "title": "Sukkot VII (Hoshana Raba)",
+   "hebrew": "סוכות ז׳ (הושענא רבה)",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2026-10-03",
+   "title": "Shmini Atzeret",
+   "hebrew": "שמיני עצרת",
+   "yomtov": true,
+   "category": "holiday"
+  },
+  {
+   "date": "2026-12-04",
+   "title": "Chanukah: 1 Candle",
+   "hebrew": "חנוכה: א׳ נר",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2026-12-05",
+   "title": "Chanukah: 2 Candles",
+   "hebrew": "חנוכה: ב׳ נרות",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2026-12-06",
+   "title": "Chanukah: 3 Candles",
+   "hebrew": "חנוכה: ג׳ נרות",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2026-12-07",
+   "title": "Chanukah: 4 Candles",
+   "hebrew": "חנוכה: ד׳ נרות",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2026-12-08",
+   "title": "Chanukah: 5 Candles",
+   "hebrew": "חנוכה: ה׳ נרות",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2026-12-09",
+   "title": "Chanukah: 6 Candles",
+   "hebrew": "חנוכה: ו׳ נרות",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2026-12-10",
+   "title": "Chanukah: 7 Candles",
+   "hebrew": "חנוכה: ז׳ נרות",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2026-12-11",
+   "title": "Chanukah: 8 Candles",
+   "hebrew": "חנוכה: ח׳ נרות",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2026-12-12",
+   "title": "Chanukah: 8th Day",
+   "hebrew": "חנוכה: יום ח׳",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2027-03-22",
+   "title": "Erev Purim",
+   "hebrew": "ערב פורים",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2027-03-23",
+   "title": "Purim",
+   "hebrew": "פורים",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2027-04-21",
+   "title": "Erev Pesach",
+   "hebrew": "ערב פסח",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2027-04-22",
+   "title": "Pesach I",
+   "hebrew": "פסח א׳",
+   "yomtov": true,
+   "category": "holiday"
+  },
+  {
+   "date": "2027-04-23",
+   "title": "Pesach II (CH’’M)",
+   "hebrew": "פסח ב׳ (חוה״מ)",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2027-04-24",
+   "title": "Pesach III (CH’’M)",
+   "hebrew": "פסח ג׳ (חוה״מ)",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2027-04-25",
+   "title": "Pesach IV (CH’’M)",
+   "hebrew": "פסח ד׳ (חוה״מ)",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2027-04-26",
+   "title": "Pesach V (CH’’M)",
+   "hebrew": "פסח ה׳ (חוה״מ)",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2027-04-27",
+   "title": "Pesach VI (CH’’M)",
+   "hebrew": "פסח ו׳ (חוה״מ)",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2027-04-28",
+   "title": "Pesach VII",
+   "hebrew": "פסח ז׳",
+   "yomtov": true,
+   "category": "holiday"
+  },
+  {
+   "date": "2027-06-10",
+   "title": "Erev Shavuot",
+   "hebrew": "ערב שבועות",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2027-06-11",
+   "title": "Shavuot",
+   "hebrew": "שבועות",
+   "yomtov": true,
+   "category": "holiday"
+  },
+  {
+   "date": "2027-08-11",
+   "title": "Erev Tish’a B’Av",
+   "hebrew": "ערב תשעה באב",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2027-08-12",
+   "title": "Tish’a B’Av",
+   "hebrew": "תשעה באב",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2027-10-01",
+   "title": "Erev Rosh Hashana",
+   "hebrew": "ערב ראש השנה",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2027-10-02",
+   "title": "Rosh Hashana 5788",
+   "hebrew": "ראש השנה 5788",
+   "yomtov": true,
+   "category": "holiday"
+  },
+  {
+   "date": "2027-10-03",
+   "title": "Rosh Hashana II",
+   "hebrew": "ראש השנה ב׳",
+   "yomtov": true,
+   "category": "holiday"
+  },
+  {
+   "date": "2027-10-10",
+   "title": "Erev Yom Kippur",
+   "hebrew": "ערב יום כיפור",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2027-10-11",
+   "title": "Yom Kippur",
+   "hebrew": "יום כיפור",
+   "yomtov": true,
+   "category": "holiday"
+  },
+  {
+   "date": "2027-10-15",
+   "title": "Erev Sukkot",
+   "hebrew": "ערב סוכות",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2027-10-16",
+   "title": "Sukkot I",
+   "hebrew": "סוכות א׳",
+   "yomtov": true,
+   "category": "holiday"
+  },
+  {
+   "date": "2027-10-17",
+   "title": "Sukkot II (CH’’M)",
+   "hebrew": "סוכות ב׳ (חוה״מ)",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2027-10-18",
+   "title": "Sukkot III (CH’’M)",
+   "hebrew": "סוכות ג׳ (חוה״מ)",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2027-10-19",
+   "title": "Sukkot IV (CH’’M)",
+   "hebrew": "סוכות ד׳ (חוה״מ)",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2027-10-20",
+   "title": "Sukkot V (CH’’M)",
+   "hebrew": "סוכות ה׳ (חוה״מ)",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2027-10-21",
+   "title": "Sukkot VI (CH’’M)",
+   "hebrew": "סוכות ו׳ (חוה״מ)",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2027-10-22",
+   "title": "Sukkot VII (Hoshana Raba)",
+   "hebrew": "סוכות ז׳ (הושענא רבה)",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2027-10-23",
+   "title": "Shmini Atzeret",
+   "hebrew": "שמיני עצרת",
+   "yomtov": true,
+   "category": "holiday"
+  },
+  {
+   "date": "2027-12-24",
+   "title": "Chanukah: 1 Candle",
+   "hebrew": "חנוכה: א׳ נר",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2027-12-25",
+   "title": "Chanukah: 2 Candles",
+   "hebrew": "חנוכה: ב׳ נרות",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2027-12-26",
+   "title": "Chanukah: 3 Candles",
+   "hebrew": "חנוכה: ג׳ נרות",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2027-12-27",
+   "title": "Chanukah: 4 Candles",
+   "hebrew": "חנוכה: ד׳ נרות",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2027-12-28",
+   "title": "Chanukah: 5 Candles",
+   "hebrew": "חנוכה: ה׳ נרות",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2027-12-29",
+   "title": "Chanukah: 6 Candles",
+   "hebrew": "חנוכה: ו׳ נרות",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2027-12-30",
+   "title": "Chanukah: 7 Candles",
+   "hebrew": "חנוכה: ז׳ נרות",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2027-12-31",
+   "title": "Chanukah: 8 Candles",
+   "hebrew": "חנוכה: ח׳ נרות",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2028-01-01",
+   "title": "Chanukah: 8th Day",
+   "hebrew": "חנוכה: יום ח׳",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2028-03-11",
+   "title": "Erev Purim",
+   "hebrew": "ערב פורים",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2028-03-12",
+   "title": "Purim",
+   "hebrew": "פורים",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2028-04-10",
+   "title": "Erev Pesach",
+   "hebrew": "ערב פסח",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2028-04-11",
+   "title": "Pesach I",
+   "hebrew": "פסח א׳",
+   "yomtov": true,
+   "category": "holiday"
+  },
+  {
+   "date": "2028-04-12",
+   "title": "Pesach II (CH’’M)",
+   "hebrew": "פסח ב׳ (חוה״מ)",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2028-04-13",
+   "title": "Pesach III (CH’’M)",
+   "hebrew": "פסח ג׳ (חוה״מ)",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2028-04-14",
+   "title": "Pesach IV (CH’’M)",
+   "hebrew": "פסח ד׳ (חוה״מ)",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2028-04-15",
+   "title": "Pesach V (CH’’M)",
+   "hebrew": "פסח ה׳ (חוה״מ)",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2028-04-16",
+   "title": "Pesach VI (CH’’M)",
+   "hebrew": "פסח ו׳ (חוה״מ)",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2028-04-17",
+   "title": "Pesach VII",
+   "hebrew": "פסח ז׳",
+   "yomtov": true,
+   "category": "holiday"
+  },
+  {
+   "date": "2028-05-30",
+   "title": "Erev Shavuot",
+   "hebrew": "ערב שבועות",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2028-05-31",
+   "title": "Shavuot",
+   "hebrew": "שבועות",
+   "yomtov": true,
+   "category": "holiday"
+  },
+  {
+   "date": "2028-07-31",
+   "title": "Erev Tish’a B’Av",
+   "hebrew": "ערב תשעה באב",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2028-08-01",
+   "title": "Tish’a B’Av",
+   "hebrew": "תשעה באב",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2028-09-20",
+   "title": "Erev Rosh Hashana",
+   "hebrew": "ערב ראש השנה",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2028-09-21",
+   "title": "Rosh Hashana 5789",
+   "hebrew": "ראש השנה 5789",
+   "yomtov": true,
+   "category": "holiday"
+  },
+  {
+   "date": "2028-09-22",
+   "title": "Rosh Hashana II",
+   "hebrew": "ראש השנה ב׳",
+   "yomtov": true,
+   "category": "holiday"
+  },
+  {
+   "date": "2028-09-29",
+   "title": "Erev Yom Kippur",
+   "hebrew": "ערב יום כיפור",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2028-09-30",
+   "title": "Yom Kippur",
+   "hebrew": "יום כיפור",
+   "yomtov": true,
+   "category": "holiday"
+  },
+  {
+   "date": "2028-10-04",
+   "title": "Erev Sukkot",
+   "hebrew": "ערב סוכות",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2028-10-05",
+   "title": "Sukkot I",
+   "hebrew": "סוכות א׳",
+   "yomtov": true,
+   "category": "holiday"
+  },
+  {
+   "date": "2028-10-06",
+   "title": "Sukkot II (CH’’M)",
+   "hebrew": "סוכות ב׳ (חוה״מ)",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2028-10-07",
+   "title": "Sukkot III (CH’’M)",
+   "hebrew": "סוכות ג׳ (חוה״מ)",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2028-10-08",
+   "title": "Sukkot IV (CH’’M)",
+   "hebrew": "סוכות ד׳ (חוה״מ)",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2028-10-09",
+   "title": "Sukkot V (CH’’M)",
+   "hebrew": "סוכות ה׳ (חוה״מ)",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2028-10-10",
+   "title": "Sukkot VI (CH’’M)",
+   "hebrew": "סוכות ו׳ (חוה״מ)",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2028-10-11",
+   "title": "Sukkot VII (Hoshana Raba)",
+   "hebrew": "סוכות ז׳ (הושענא רבה)",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2028-10-12",
+   "title": "Shmini Atzeret",
+   "hebrew": "שמיני עצרת",
+   "yomtov": true,
+   "category": "holiday"
+  },
+  {
+   "date": "2028-12-12",
+   "title": "Chanukah: 1 Candle",
+   "hebrew": "חנוכה: א׳ נר",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2028-12-13",
+   "title": "Chanukah: 2 Candles",
+   "hebrew": "חנוכה: ב׳ נרות",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2028-12-14",
+   "title": "Chanukah: 3 Candles",
+   "hebrew": "חנוכה: ג׳ נרות",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2028-12-15",
+   "title": "Chanukah: 4 Candles",
+   "hebrew": "חנוכה: ד׳ נרות",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2028-12-16",
+   "title": "Chanukah: 5 Candles",
+   "hebrew": "חנוכה: ה׳ נרות",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2028-12-17",
+   "title": "Chanukah: 6 Candles",
+   "hebrew": "חנוכה: ו׳ נרות",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2028-12-18",
+   "title": "Chanukah: 7 Candles",
+   "hebrew": "חנוכה: ז׳ נרות",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2028-12-19",
+   "title": "Chanukah: 8 Candles",
+   "hebrew": "חנוכה: ח׳ נרות",
+   "yomtov": false,
+   "category": "holiday"
+  },
+  {
+   "date": "2028-12-20",
+   "title": "Chanukah: 8th Day",
+   "hebrew": "חנוכה: יום ח׳",
+   "yomtov": false,
+   "category": "holiday"
+  }
+ ]
+}

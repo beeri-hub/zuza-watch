@@ -1,0 +1,41 @@
+{
+  "_note": "בדיקת עשן לאתרים. כל פריט: url, expect_status, contains (מחרוזות יציבות שחייבות להופיע בדף), name_he (השם שהבעלים רואה). נבחר 13.10.2026 מתוך ה-<title> של כל דף. מוסיפים כתובות כאן — לא בקוד.",
+  "sites": {
+    "zuza": [
+      {
+        "url": "https://zuzadoor.com/",
+        "expect_status": 200,
+        "contains": ["ZUZA Door"],
+        "name_he": "zuzadoor.com — דף הבית"
+      }
+    ],
+    "beeri": [
+      {
+        "url": "https://beeritzori.com/en/",
+        "expect_status": 200,
+        "contains": ["Beeri Tzori"],
+        "name_he": "beeritzori.com — דף הבית באנגלית"
+      },
+      {
+        "url": "https://beeritzori.com/pickups",
+        "expect_status": 200,
+        "contains": ["בארי צורי", "pickups-title"],
+        "name_he": "beeritzori.com — דף «כמה פעמים הרמת» בעברית"
+      },
+      {
+        "url": "https://beeritzori.com/en/pickups",
+        "expect_status": 200,
+        "contains": ["Beeri Tzori", "pickups-title"],
+        "name_he": "beeritzori.com — דף «כמה פעמים הרמת» באנגלית"
+      }
+    ],
+    "u4b": [
+      {
+        "url": "https://u4balance.com/",
+        "expect_status": 200,
+        "contains": ["U4Balance"],
+        "name_he": "u4balance.com — דף הבית"
+      }
+    ]
+  }
+}

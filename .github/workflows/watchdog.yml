@@ -1,0 +1,42 @@
+# שומר חיצוני של ZUZA — "מי שומר על השומר".
+#
+# למה הריפו הזה ציבורי: ב-GitHub ריפו ציבורי מקבל דקות Actions בלי הגבלה ובחינם.
+# ב-17.10.2026 הדקות של הריפו הפרטי zuza-hq נגמרו והשומר הפסיק לרוץ (הבעלים לא משלם).
+# לכן הקוד של השומר בלבד — בלי שום דבר עסקי — עבר לכאן. אין כאן סודות: הכתובת והמפתח
+# של השומר הראשי הם Secrets של הריפו (gh secret set WATCHDOG_URL / WATCHDOG_KEY).
+#
+# מה זה עושה: כל שעתיים בודק (1) שהשומר הראשי (Apps Script "ZUZA Watchdog") עדיין רץ,
+# ו-(2) בעצמו, בלי תלות בגוגל, שהאתרים zuzadoor.com, beeritzori.com ו-u4balance.com עונים.
+# הקוד: scripts/external_watch.py, הכתובות: scripts/site_smoke.json.
+# כשריצה מתוזמנת נכשלת, GitHub שולח מייל לבעלים. בשבת ובחג הריצה יוצאת בשקט.
+# הרצה ידנית: gh workflow run watchdog.yml --repo beeri-hub/zuza-watch
+# השעה ב-cron היא UTC.
+
+name: "watchdog — שומר חיצוני של ZUZA"
+
+on:
+  schedule:
+    - cron: '17 */2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: watchdog
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: בדיקת השומר הראשי והאתרים
+        env:
+          WATCHDOG_URL: ${{ secrets.WATCHDOG_URL }}
+          WATCHDOG_KEY: ${{ secrets.WATCHDOG_KEY }}
+        run: python3 scripts/external_watch.py
