@@ -1,6 +1,6 @@
 {
-  "kit": "ok",
-  "gift": "ok",
+  "kit": "paused",
+  "gift": "paused",
   "since": {
     "kit": "",
     "gift": ""
@@ -27,5 +27,6 @@
   "pending": [],
   "send_failures": 0,
   "heartbeat": "2026-10-20",
-  "updated": "2026-10-20T21:00+03:00"
+  "updated": "2026-10-20T21:00+03:00",
+  "manual": true
 }
