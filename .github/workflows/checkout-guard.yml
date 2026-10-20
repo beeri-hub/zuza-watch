@@ -12,9 +12,8 @@
 name: "checkout-guard — שומר התשלום של ZUZA"
 
 on:
-  # schedule: מופעל אחרי שהאתר החי כולל את /.netlify/functions/pay-links
-  # schedule:
-  #   - cron: '*/10 * * * *'
+  schedule:
+    - cron: '*/10 * * * *'
   workflow_dispatch:
     inputs:
       mode:
