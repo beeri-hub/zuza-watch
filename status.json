@@ -1,0 +1,31 @@
+{
+  "kit": "ok",
+  "gift": "ok",
+  "since": {
+    "kit": "",
+    "gift": ""
+  },
+  "reason": {
+    "kit": "",
+    "gift": ""
+  },
+  "streak": {
+    "kit": {
+      "bad": 0,
+      "good": 2
+    },
+    "gift": {
+      "bad": 0,
+      "good": 2
+    }
+  },
+  "sheet": {
+    "bad": 0,
+    "alerted": false
+  },
+  "unknown": 0,
+  "pending": [],
+  "send_failures": 0,
+  "heartbeat": "2026-10-20",
+  "updated": "2026-10-20T21:00+03:00"
+}

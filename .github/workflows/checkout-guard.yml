@@ -1,0 +1,51 @@
+# שומר התשלום של ZUZA — הבעלים, 20.10.2026 (פריט 13):
+# "אוטומטית, כשיש תקלה, לסגור את החלק באתר שיש בו את התקלה... לבדוק כל הזמן שכפתורי התשלום עובדים."
+#
+# כל ~10 דקות: פותח את כל עמודי התשלום של Hyp שהאתר zuzadoor.com משתמש בהם (בלי לשלם),
+# כותב status.json (kit / gift: ok | paused), והאתר סוגר או פותח את כפתור התשלום לבד.
+# כל שינוי = מייל מיידי לבארי ול-office@ (דרך האתר, מאומת ב-OIDC של GitHub — בלי סוד).
+# בשבת ובחג: בודק וסוגר כרגיל, המייל מחכה למוצאי שבת/חג.
+# הקוד: scripts/checkout_guard.py. עצירה: Actions → checkout-guard → Disable workflow.
+# הרצה ידנית: gh workflow run checkout-guard.yml --repo beeri-hub/zuza-watch -f mode=dry-run
+# השעה ב-cron היא UTC.
+
+name: "checkout-guard — שומר התשלום של ZUZA"
+
+on:
+  # schedule: מופעל אחרי שהאתר החי כולל את /.netlify/functions/pay-links
+  # schedule:
+  #   - cron: '*/10 * * * *'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "run = רגיל · dry-run = בלי לשנות ובלי מייל · test-alert = מייל בדיקה לבארי בלבד"
+        type: choice
+        options: [run, dry-run, test-alert]
+        default: run
+      site:
+        description: "האתר לבדיקה (לבדיקות: כתובת preview)"
+        type: string
+        default: "https://zuzadoor.com"
+
+permissions:
+  contents: write   # status.json
+  id-token: write   # OIDC token that authorizes the alert email at zuzadoor.com
+
+concurrency:
+  group: checkout-guard
+  cancel-in-progress: false
+
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: בדיקת עמודי התשלום
+        env:
+          GUARD_MODE: ${{ inputs.mode || 'run' }}
+          GUARD_SITE: ${{ inputs.site || 'https://zuzadoor.com' }}
+        run: python3 scripts/checkout_guard.py
