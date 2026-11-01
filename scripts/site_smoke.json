@@ -5,7 +5,7 @@
       {
         "url": "https://zuzadoor.com/",
         "expect_status": 200,
-        "contains": ["ZUZA Door"],
+        "contains": ["Phone Dock"],
         "name_he": "zuzadoor.com — דף הבית"
       }
     ],
